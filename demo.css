@@ -1,0 +1,241 @@
+@font-face {
+font-family: "Monocraft";
+src: url("Monocarft.otf")
+}
+    
+html{
+color:#ffffff;
+font-family:Monocraft;
+}
+
+
+
+
+body{
+    background-color: #5D557D;
+    background:url(img/endless_night.gif);
+    opacity:0.5
+    
+}
+    .chest{
+        border:solid 4px #2D2264;
+        display: inline-flex;
+        flex-direction: row;
+        
+        
+    }
+    .item{
+        border:2px solid #9A43B0;
+        margin: 10px;
+        display:inline-flex;
+        padding:3px;
+        background-color:darkgray;
+        
+    }
+.item img{
+    width:50px;
+}
+.C {
+ background-color: 	#544770;
+ background:url(img/old_spotlight.gif);
+ padding-top: 30px;
+ margin:0;
+  font-family: 'Courier New', Courier, monospace;
+      text-align: center;
+      color:#BDBDBD;
+}
+.en-tête{
+font-size: 150px;
+text-align: center;
+padding:60px 0 50px 0 ;
+border: solid;
+border-color:#7084E1;
+margin:0 0 0 0 ;
+}
+p{
+font-size: 25px;
+}
+#rcorner1{
+border-radius: 100px;
+
+    
+}
+    #discord_logo{
+        margin-right:5px;
+    }
+    #Contact{
+        text-align: right;
+        text-align: end;
+    }   
+    #instagram_logo{
+        margin-right:5px;
+    }
+    
+.aurelion{
+background-color:#2e3a4d;
+background:url(img/aurelion.jpg);
+    position: relative;
+}
+
+#exemple1 {
+    /*  color:red;*/
+    /*  color:FF0000;*/
+    /*      #RRGGBB */
+     /*   color:rgb(255,0,0);*/
+     /*   border: 10px solid #84F312;*/
+    color:rgb(132,243,18);
+    border: 10px solid #F88
+    
+    width:250px;
+}
+ 
+#div_1 > i{
+    color:yellow;
+}
+#div_2 > i{
+    color:red;
+}
+
+li{
+    border: 2px solid black;
+    border-width:1px 1px 0px 1px;
+    width:100px;
+}
+
+li + li{
+    border-top:1px dotted black;
+}
+
+li + li + li + li + li{
+    border-bottom:1px solid black;
+}
+
+.test + p + p{
+    color:red;
+}
+
+.droitdepage{
+    float:right;
+    background:url(img/fond-pixel1.gif);
+    
+}
+
+.cube{
+  width: 100px;
+  float:right;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-iteration-count:infinite;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%   {background-color:red; left:-300px; top:0px;}
+  50%  {background-color:red; left:-300px; top:-300px;}
+  75%  {background-color:red; left:0px; top:-300px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+#haut a:link {
+    background-color:green;
+}
+
+#haut a:visited {
+    background-color:orange;
+}
+
+#haut a:hover {
+    background-color:lightcoral;
+}
+
+#haut a:active {
+    background-color:lightblue;
+}
+
+li:hover {
+    background-color:yellow;
+}
+li:first-child {
+    background-color:red;
+}
+
+
+
+  #lorem:first-letter {
+        font-weight:bold;
+        font-size:30px;
+        }
+#lorem:before{
+    content:"cannot select try "
+}
+
+div{
+    /*priorité la plus basse */
+}
+div h1{
+    /* priorité supérieur au div simple */
+}
+
+.madiv{
+    color:blue;
+    /* priorité moyenne */
+}
+#iddiv{
+    color:lightgreen;
+    /* priorité première */
+}
+/*METTRE UN STYLE DANS LE TAG (BALISE) EST LE PLUS PRIORITAIRE DE TOUS*/
